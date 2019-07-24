@@ -51,11 +51,11 @@ public class ThreadXCS implements Runnable {
 		ThreadXCS tx = new ThreadXCS();
 		Thread th = new Thread(tx, "售票窗口一");
 		Thread th2 = new Thread(tx,"售票窗口二");
-		Thread th3 = new Thread(tx, "售票窗口三");
-		Thread th4 = new Thread(tx, "售票窗口四");
+		//Thread th3 = new Thread(tx, "售票窗口三");
+		//Thread th4 = new Thread(tx, "售票窗口四");
 		th.start();
 		th2.start();
-		th3.start();
-		th4.start();
+		//th3.start();
+		//th4.start();
 	}
 }
